@@ -1,0 +1,516 @@
+
+#include <stdio.h>
+#include <conio.h>
+#include <stdlib.h>
+#include <dos.h>
+
+#include "iGraphics.h"
+int box;
+int b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11,b12,b13,b14,b15,b16,b17,b18,b19,b20,b21,b22,b23,b24,b25;
+int b26,b27,b28,b29,b30,b31,b32,b33,b34,b35,b36;
+/* 
+	function iDraw() is called again and again by the system.
+*/
+void flag(){
+if(b1) {
+      iShowBMP(265,167,"flag.bmp");
+	  
+	}
+	if(b2) {
+      iShowBMP(310,167,"flag.bmp");
+	}
+	if(b3) {
+      iShowBMP(352,167,"flag.bmp");
+	  
+	}
+	if(b4) {
+      iShowBMP(394,167,"flag.bmp");
+	}
+	if(b5) {
+      iShowBMP(437,167,"flag.bmp");
+	  
+	}
+	if(b6) {
+      iShowBMP(479,167,"flag.bmp");
+	}
+	if(b7) {
+      iShowBMP(265,212,"flag.bmp");
+	  
+	}
+	if(b8) {
+      iShowBMP(310,212,"flag.bmp");
+	}
+	if(b9) {
+      iShowBMP(352,212,"flag.bmp");
+	  
+	}
+	if(b10) {
+      iShowBMP(394,212,"flag.bmp");
+	}
+	if(b11) {
+      iShowBMP(437,212,"flag.bmp");;
+	  
+	}
+	if(b12) {
+      iShowBMP(479,212,"flag.bmp");
+	  
+	}
+	if(b13) {
+      iShowBMP(265,255,"flag.bmp");
+	  
+	}
+	if(b14) {
+      iShowBMP(310,255,"flag.bmp");
+	  
+	}
+	if(b15) {
+     iShowBMP(352,255,"flag.bmp");
+	  
+	}
+	if(b16) {
+      iShowBMP(394,255,"flag.bmp");
+	  
+	}
+	if(b17) {
+     iShowBMP(437,255,"flag.bmp");
+	}
+	if(b18) {
+      iShowBMP(479,255,"flag.bmp");
+	  
+	}
+	if(b19) {
+      iShowBMP(265,297,"flag.bmp");
+	  
+	}
+	if(b20) {
+     iShowBMP(310,297,"flag.bmp");
+	  
+	}
+	if(b21) {
+      iShowBMP(352,297,"flag.bmp");
+	  
+	}
+	if(b22) {
+     iShowBMP(394,297,"flag.bmp");
+	  
+	}
+	if(b23) {
+     iShowBMP(437,297,"flag.bmp");
+	  
+	}
+	if(b24) {
+    iShowBMP(479,297,"flag.bmp");
+	  
+	}
+	if(b25) {
+     iShowBMP(265,339,"flag.bmp");
+	  
+	}
+	if(b26) {
+      iShowBMP(310,339,"flag.bmp");
+	  
+	}
+	if(b27) {
+     iShowBMP(352,339,"flag.bmp");
+	  
+	}
+	if(b28) {
+     iShowBMP(394,339,"flag.bmp");
+	  
+	}
+	if(b29) {
+    iShowBMP(437,339,"flag.bmp");
+	  
+	}
+	if(b30) {
+    iShowBMP(479,339,"flag.bmp");
+	  
+	}
+	if(b31) {
+    iShowBMP(265,382,"flag.bmp");
+	  
+	}
+	if(b32) {
+    iShowBMP(310,382,"flag.bmp");
+	  
+	}
+	if(b33) {
+    iShowBMP(352,382,"flag.bmp");
+	  
+	}
+	if(b34) {
+    iShowBMP(394,382,"flag.bmp");
+	  
+	}
+	if(b35) {
+    iShowBMP(437,382,"flag.bmp");
+	  
+	}
+	if(b36) {
+    iShowBMP(479,382,"flag.bmp");
+	  
+	}
+
+}
+
+void iDraw()
+{
+	//place your drawing codes here	
+	iClear();
+	iShowBMP(0,0,"grass.bmp");
+	iShowBMP(260,160,"board.bmp");
+	flag();
+/*	if(b1) {
+      iShowBMP(265,167,"flag.bmp");
+	  
+	}
+	if(b2) {
+      iShowBMP(310,167,"flag.bmp");
+	}
+	if(b3) {
+      iShowBMP(352,167,"flag.bmp");
+	  
+	}
+	if(b4) {
+      iShowBMP(394,167,"flag.bmp");
+	}
+	if(b5) {
+      iShowBMP(437,167,"flag.bmp");
+	  
+	}
+	if(b6) {
+      iShowBMP(479,167,"flag.bmp");
+	}
+	if(b7) {
+      iShowBMP(265,212,"flag.bmp");
+	  
+	}
+	if(b8) {
+      iShowBMP(310,212,"flag.bmp");
+	}
+	if(b9) {
+      iShowBMP(352,212,"flag.bmp");
+	  
+	}
+	if(b10) {
+      iShowBMP(394,212,"flag.bmp");
+	}
+	if(b11) {
+      iShowBMP(437,212,"flag.bmp");;
+	  
+	}
+	if(b12) {
+      iShowBMP(479,212,"flag.bmp");
+	  
+	}
+	if(b13) {
+      iShowBMP(265,255,"flag.bmp");
+	  
+	}
+	if(b14) {
+      iShowBMP(310,255,"flag.bmp");
+	  
+	}
+	if(b15) {
+     iShowBMP(352,255,"flag.bmp");
+	  
+	}
+	if(b16) {
+      iShowBMP(394,255,"flag.bmp");
+	  
+	}
+	if(b17) {
+     iShowBMP(437,255,"flag.bmp");
+	}
+	if(b18) {
+      iShowBMP(479,255,"flag.bmp");
+	  
+	}
+	if(b19) {
+      iShowBMP(265,297,"flag.bmp");
+	  
+	}
+	if(b20) {
+     iShowBMP(310,297,"flag.bmp");
+	  
+	}
+	if(b21) {
+      iShowBMP(352,297,"flag.bmp");
+	  
+	}
+	if(b22) {
+     iShowBMP(394,297,"flag.bmp");
+	  
+	}
+	if(b23) {
+     iShowBMP(437,297,"flag.bmp");
+	  
+	}
+	if(b24) {
+    iShowBMP(479,297,"flag.bmp");
+	  
+	}
+	if(b25) {
+     iShowBMP(265,339,"flag.bmp");
+	  
+	}
+	if(b26) {
+      iShowBMP(310,339,"flag.bmp");
+	  
+	}
+	if(b27) {
+     iShowBMP(352,339,"flag.bmp");
+	  
+	}
+	if(b28) {
+     iShowBMP(394,339,"flag.bmp");
+	  
+	}
+	if(b29) {
+    iShowBMP(437,339,"flag.bmp");
+	  
+	}
+	if(b30) {
+    iShowBMP(479,339,"flag.bmp");
+	  
+	}
+	if(b31) {
+    iShowBMP(265,382,"flag.bmp");
+	  
+	}
+	if(b32) {
+    iShowBMP(310,382,"flag.bmp");
+	  
+	}
+	if(b33) {
+    iShowBMP(352,382,"flag.bmp");
+	  
+	}
+	if(b34) {
+    iShowBMP(394,382,"flag.bmp");
+	  
+	}
+	if(b35) {
+    iShowBMP(437,382,"flag.bmp");
+	  
+	}
+	if(b36) {
+    iShowBMP(479,382,"flag.bmp");
+	  
+	}*/
+}
+
+
+/* 
+	function iMouseMove() is called when the user presses and drags the mouse.
+	(mx, my) is the position where the mouse pointer is.
+*/
+void iMouseMove(int mx, int my)
+{
+	//place your codes here
+}
+
+/* 
+	function iMouse() is called when the user presses/releases the mouse.
+	(mx, my) is the position where the mouse pointer is.
+*/
+void iMouse(int button, int state, int mx, int my)
+{
+	if(button == GLUT_LEFT_BUTTON && state == GLUT_DOWN)
+	{
+		//place your codes here	
+	
+	}
+	if(button == GLUT_RIGHT_BUTTON && state == GLUT_DOWN)
+	{
+		//place your codes here	
+		
+			if(mx >= 265 && mx <= 300 && my >= 167 && my <= 200 )
+		{
+			b1=1;
+		}
+			else if(mx >= 265 && mx <= 300 && my >= 212 && my <= 240  )
+		{
+			b7=1;
+		}
+			else if(mx >= 265 && mx <= 300 && my >= 255 && my <= 283 )
+		{
+			b13=1;
+		}
+			else if(mx >= 265 && mx <= 300 && my >= 297 && my <= 326  )
+		{
+			b19=1;
+		}
+			else if(mx >= 265 && mx <= 300 && my >= 339 && my <= 367 )
+		{
+			b25=1;
+		}
+				else if(mx >= 265 && mx <= 300 && my >= 382 && my <= 410 )
+		{
+			b31=1;
+		}
+			else if(mx >= 310 && mx <= 338 && my >= 168 && my <= 198)
+		{
+			b2=1;
+		}
+				else if(mx >= 310 && mx <= 338 && my >= 212 && my <= 240)
+		{
+			b8=1;
+		}
+			else if(mx >= 310 && mx <= 338 && my >= 255 && my <= 283)
+		{
+			b14=1;
+		}
+			else if(mx >= 310 && mx <= 338 && my >= 297 && my <= 326)
+		{
+			b20=1;
+		}
+			else if(mx >= 310 && mx <= 338 &&  my >= 339 && my <= 367)
+		{
+			b26=1;
+		}
+			else if(mx >= 310 && mx <= 338 && my >= 382 && my <= 410)
+		{
+			b32=1;
+		}
+			else if(mx >= 352 && mx <= 381 && my >= 167 && my <= 200)
+		{
+			b3=1;
+		}
+				else if(mx >= 352 && mx <= 381 && my >= 212 && my <= 240)
+		{
+			b9=1;
+		}
+				else if(mx >= 352 && mx <= 381 && my >= 255 && my <= 283)
+		{
+			b15=1;
+		}
+			else if(mx >= 352 && mx <= 381 && my >= 297 && my <= 326)
+		{
+			b21=1;
+		}
+			else if(mx >= 352 && mx <= 381 && my >= 339 && my <= 367)
+		{
+			b27=1;
+		}
+			else if(mx >= 352 && mx <= 381 && my >= 382 && my <= 410)
+		{
+			b33=1;
+		}
+			else if(mx >= 394 && mx <= 424 && my >= 167 && my <= 200)
+		{
+			b4=1;
+		}
+			else if(mx >= 394 && mx <= 424 && my >= 212 && my <= 240)
+		{
+			b10=1;
+		}
+				else if(mx >= 394 && mx <= 424 && my >= 255 && my <= 283)
+		{
+			b16=1;
+		}
+			else if(mx >= 394 && mx <= 424 && my >= 297 && my <= 326)
+		{
+			b22=1;
+		}
+				else if(mx >= 394 && mx <= 424 &&  my >= 339 && my <= 367)
+		{
+			b28=1;
+		}
+			else if(mx >= 394 && mx <= 424 && my >= 382 && my <= 410)
+		{
+			b34=1;
+		}
+				else if(mx >= 437 && mx <= 466 && my >= 167 && my <= 200)
+		{
+			b5=1;
+		}
+			else if(mx >= 437 && mx <= 466 && my >= 212 && my <= 240)
+		{
+			b11=1;
+		}
+				else if(mx >= 437 && mx <= 466 && my >= 255 && my <= 283)
+		{
+			b17=1;
+		}
+			else if(mx >= 437 && mx <= 466 && my >= 297 && my <= 326)
+		{
+			b23=1;
+		}
+				else if(mx >= 437 && mx <= 466 && my >= 339 && my <= 367)
+		{
+			b29=1;
+		}
+			else if(mx >= 437 && mx <= 466 && my >= 382 && my <= 410)
+		{
+			b35=1;
+		}
+			else if(mx >= 479 && mx <= 508 && my >= 167 && my <= 200)
+		{
+			b6=1;
+		}
+			else if(mx >= 479 && mx <= 508 && my >= 212 && my <= 240)
+		{
+			b12=1;
+		}
+				else if(mx >= 479 && mx <= 508 && my >= 255 && my <= 283)
+		{
+			b18=1;
+		}
+			else if(mx >= 479 && mx <= 508 && my >= 297 && my <= 326)
+		{
+			b24=1;
+		}
+				else if(mx >= 479 && mx <= 508 && my >= 339 && my <= 367)
+		{
+			b30=1;
+		}
+			else if(mx >= 479 && mx <= 508 && my >= 382 && my <= 410)
+		{
+			b36=1;
+		}
+	}
+}
+
+/*
+	function iKeyboard() is called whenever the user hits a key in keyboard.
+	key- holds the ASCII value of the key pressed. 
+*/
+void iKeyboard(unsigned char key)
+{
+	if(key == 'q')
+	{
+		exit(0);
+		//do something with 'q'
+	}
+	//place your codes for other keys here
+}
+
+/*
+	function iSpecialKeyboard() is called whenver user hits special keys like-
+	function keys, home, end, pg up, pg down, arraows etc. you have to use 
+	appropriate constants to detect them. A list is:
+	GLUT_KEY_F1, GLUT_KEY_F2, GLUT_KEY_F3, GLUT_KEY_F4, GLUT_KEY_F5, GLUT_KEY_F6, 
+	GLUT_KEY_F7, GLUT_KEY_F8, GLUT_KEY_F9, GLUT_KEY_F10, GLUT_KEY_F11, GLUT_KEY_F12, 
+	GLUT_KEY_LEFT, GLUT_KEY_UP, GLUT_KEY_RIGHT, GLUT_KEY_DOWN, GLUT_KEY_PAGE UP, 
+	GLUT_KEY_PAGE DOWN, GLUT_KEY_HOME, GLUT_KEY_END, GLUT_KEY_INSERT 
+*/
+void iSpecialKeyboard(unsigned char key)
+{
+
+	if(key == GLUT_KEY_END)
+	{
+		exit(0);	
+	}
+	//place your codes for other keys here
+}
+
+
+
+void main()
+{
+	
+	iInitialize(800, 600, "MinesWeeper!");
+	return;
+}
+
